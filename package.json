@@ -1,0 +1,31 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "New Description added",
+  "main": "src/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandu535/reverse-string.git"
+  },
+  "keywords": [
+    "package",
+    "new package"
+  ],
+  "author": "creator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandu535/reverse-string/issues"
+  },
+  "homepage": "https://github.com/chandu535/reverse-string#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
